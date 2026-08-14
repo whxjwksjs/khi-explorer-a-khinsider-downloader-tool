@@ -1,3 +1,19 @@
+# khi-explorer (Enhanced Fork)
+
+> **Note on Maintenance:**  
+> This is a personal fork created to add specific quality-of-life improvements (artwork scraping, multi-disc tracking, better audio codec fallback, and portable mode).  
+> **This fork is provided as-is and is not actively maintained.** Issues and feature requests will not be tracked or implemented. Feel free to fork or adapt the code for your own needs!
+
+---
+
+### ✨ Key Additions & Improvements in this Fork
+
+* **🎨 Artwork Scraper & Downloader**: Automatically downloads all official album covers and booklet scans into an `Art/` subfolder while strictly ignoring user avatars, comments, and recommendations.
+* **🔢 Smart Track & Multi-Disc Numbering**: Properly formats multi-disc sets (`1-01 - Track.flac`, `2-01 - Track.flac`) and zero-pads single-disc tracks (`01 - Track.mp3`).
+* **🎵 Smart Audio Codec Priority**: Automatically checks for lossless and high-quality formats before falling back to MP3 (`FLAC` → `WAV` → `M4A` → `OPUS` → `OGG` → `MP3`), and saves files with their true file extension.
+* **🧰 Fully Portable**: The configuration file (`.khi_explorer.yaml`) is saved right beside the executable, allowing you to run it from secondary drives or USB sticks without touching the `C:` drive.
+
+
 # khi-explorer
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/madLinux7/khi-explorer?style=flat-square)](https://go.dev/)
