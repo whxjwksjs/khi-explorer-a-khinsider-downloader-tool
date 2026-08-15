@@ -14,7 +14,7 @@
 * **🧰 Fully Portable**: The configuration file (`.khi_explorer.yaml`) is saved right beside the executable, allowing you to run it from secondary drives or USB sticks without touching the `C:` drive.
 
 
-# khi-explorer
+# khi-explorer - a khinsider downloader tool
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/madLinux7/khi-explorer?style=flat-square)](https://go.dev/)
 [![Release](https://img.shields.io/github/v/release/madLinux7/khi-explorer?style=flat-square)](https://github.com/madLinux7/khi-explorer/releases)
